@@ -30,16 +30,19 @@ body {
 /* footer */
 footer {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 20px;
+  bottom: 20px;
 }
 
 p {
-  background-color: white;
-  color: black;
   font-size: 100px;
   font-weight: bold;
-  margin: 0 20px 20px 0;
+  display: inline;
+}
+
+.seiki {
+  background-color: white;
+  color: black;
 }
 
 .matu {
@@ -51,3 +54,6 @@ p {
   font-family: 'onryou';
   src: url('./font/onryou.TTF') format('truetype');
 }
+
+
+/* スマホ対応 */
