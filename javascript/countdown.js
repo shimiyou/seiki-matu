@@ -12,7 +12,7 @@ function countdownTimer(){
   var addZeroDay = function(n){return('0'+n).slice(-5);}
   if (period >= 0) {
     var day = Math.floor(period / (interval * 60 * 60 * 24));
-    period -=  (day *(interval * 60 * 60 * 24));
+    period -= (day *(interval * 60 * 60 * 24));
     var hour = Math.floor(period / (interval * 60 * 60));
     period -= (hour *(interval * 60 * 60));
     var minutes =  Math.floor(period / (interval * 60));
@@ -27,7 +27,9 @@ function countdownTimer(){
     document.getElementById('result').innerHTML = insert;
     setTimeout(countdownTimer,10);
   } else {
+    var introduction = 'あけましておめでとうございます';
     var finish = '22世紀になりました';
+    document.getElementById('introduction').innerHTML = introduction;
     document.getElementById('result').innerHTML = finish;
   }
 }
