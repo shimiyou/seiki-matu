@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: silver;
-  font-family: 'onryou', sans-serif;
+  font-family: 'onryou';
 }
 
 .container {
@@ -52,6 +52,5 @@ p {
 
 @font-face {
   font-family: 'onryou';
-  font-display: swap;
-  src: url('http://seiki-matu.herokuapp.com/font/MyOnryou.woff2') format('woff2');
+  src: url('http://seiki-matu.herokuapp.com/css/font/onryou.TTF') format('truetype');
 }
