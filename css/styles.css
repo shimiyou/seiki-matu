@@ -52,8 +52,5 @@ p {
 
 @font-face {
   font-family: 'onryou';
-  src: url('./font/onryou.TTF') format('truetype');
+  src: url('./font/MyOnryou.woff2') format('woff2');
 }
-
-
-/* スマホ対応 */
