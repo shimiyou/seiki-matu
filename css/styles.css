@@ -53,5 +53,5 @@ p {
 @font-face {
   font-family: 'onryou';
   font-display: swap;
-  src: url('./font/MyOnryou.woff2') format('woff2');
+  src: url('http://seiki-matu.herokuapp.com/font/MyOnryou.woff2') format('woff2');
 }
